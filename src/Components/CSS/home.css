@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-cnt {
+    width: 100vw;
+    height: fit-content;
+}
+
+.left-cnt {
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.page-main-ctn {
+    width: 100vh;
+    height: 90vh;
+}
+
+.page-sidebar {
+    width: 45%;
+    height: 100%;
+
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+
+}
+
+.cat-main {
+    width: 25vw;
+    height: auto;
+    padding: 10px;
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+}
+
+.cat-head {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    cursor: pointer;
+   
+}
+
+.cat-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.catalog-cnt {
+    width: 30vw;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(237, 230, 230);
+}
+
+.schema-cnt {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    width: 25vw;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.page-main-ctn {
+    width: 100vh;
+    height: 90vh;
+}
+
+.page-sidebar {
+    width: 350px;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+
+}
+
+.cat-main {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: block;
+
+}
+
+.cat-head {
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.catalog-cnt {
+    width: 35vw;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow:auto
+}
+.schema-cnt {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.table-cnt {
+    width: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.view-head {
+    width: auto;
+    /* padding-left: 25px; */
+    margin: 5px;
+    cursor: pointer;
+}
+
+.table-content {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.tab-view-call{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 15px;
+    /* background-color: rgb(235, 104, 11); */
+}
+/* .view-style{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+.page-main-ctn{
+    width: 300px;
+    height: 90vh;
+    /* background-color: aqua; */
+}
+.page-sidebar{
+    width: auto;
+    height: 100%;
+    background-color: gray;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;  
+}
+.cat-main{
+    min-width: 100%;
+    padding: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.cat-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.table-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.view-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.catalog-cnt, .schema-cnt, .table-cnt-top, .table-cnt, .view-top-cnt, .view-cnt, .col-cnt{
+    width: auto;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+    align-items: flex-start;
+    display: flex; 
+    cursor: pointer;
+}
+.table-cnt{
+    flex-direction: column;
+    gap: 5px;
+}
+.view-cnt{
+    flex-direction: column;
+}
+.col-display{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    gap:5px;
+    
+}
